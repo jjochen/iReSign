@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A8C11218CCD8250032AEF0 /* IRApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C11118CCD8250032AEF0 /* IRApplication.m */; };
 		4C8EAD45185B74B90095DC6B /* IRHelpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EAD44185B74B90095DC6B /* IRHelpWindow.m */; };
 		5B9E4C4C166AB3F7006D9F8F /* IRTextFieldDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E4C4B166AB3F7006D9F8F /* IRTextFieldDrag.m */; };
 		C115EE2B13815024003B9ACC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C115EE2A13815024003B9ACC /* Cocoa.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A8C11018CCD8250032AEF0 /* IRApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRApplication.h; sourceTree = "<group>"; };
+		19A8C11118CCD8250032AEF0 /* IRApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRApplication.m; sourceTree = "<group>"; };
 		4C8EAD43185B74B90095DC6B /* IRHelpWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRHelpWindow.h; sourceTree = "<group>"; };
 		4C8EAD44185B74B90095DC6B /* IRHelpWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRHelpWindow.m; sourceTree = "<group>"; };
 		5B9E4C4A166AB3F7006D9F8F /* IRTextFieldDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTextFieldDrag.h; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				5B9E4C4B166AB3F7006D9F8F /* IRTextFieldDrag.m */,
 				4C8EAD43185B74B90095DC6B /* IRHelpWindow.h */,
 				4C8EAD44185B74B90095DC6B /* IRHelpWindow.m */,
+				19A8C11018CCD8250032AEF0 /* IRApplication.h */,
+				19A8C11118CCD8250032AEF0 /* IRApplication.m */,
 				C115EE3113815024003B9ACC /* Supporting Files */,
 			);
 			path = iReSign;
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C115EE3813815024003B9ACC /* main.m in Sources */,
+				19A8C11218CCD8250032AEF0 /* IRApplication.m in Sources */,
 				4C8EAD45185B74B90095DC6B /* IRHelpWindow.m in Sources */,
 				C115EE3E13815024003B9ACC /* iReSignAppDelegate.m in Sources */,
 				5B9E4C4C166AB3F7006D9F8F /* IRTextFieldDrag.m in Sources */,
