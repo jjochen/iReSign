@@ -640,6 +640,12 @@ static NSString *kiTunesMetadataFileName        = @"iTunesMetadata";
     return YES;
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication 
+{
+    return YES;
+}
+
+
 #pragma mark - Alert Methods
 
 /* NSRunAlerts are being deprecated in 10.9 */
