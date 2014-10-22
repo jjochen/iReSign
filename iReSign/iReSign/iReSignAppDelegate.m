@@ -363,9 +363,9 @@ static NSString *kiTunesMetadataFileName        = @"iTunesMetadata";
 		 To ensure it is added, append the resource flag to the arguments.
 		 */
 		
-		NSString *resourceRulesPath = [[NSBundle mainBundle] pathForResource:@"ResourceRules" ofType:@"plist"];
-		NSString *resourceRulesArgument = [NSString stringWithFormat:@"--resource-rules=%@",resourceRulesPath];
-		[arguments addObject:resourceRulesArgument];
+//		NSString *resourceRulesPath = [[NSBundle mainBundle] pathForResource:@"ResourceRules" ofType:@"plist"];
+//		NSString *resourceRulesArgument = [NSString stringWithFormat:@"--resource-rules=%@",resourceRulesPath];
+//		[arguments addObject:resourceRulesArgument];
 	} else {
 		
 		/*
